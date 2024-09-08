@@ -1,5 +1,5 @@
-public class mien {
-    void RandomSort(int[] a) {
+public class RandomSort {
+    void Random(int[] a) {
         while (isSorted(a) == false) {
             shuffle(a);
         }
