@@ -26,9 +26,9 @@ public class RandomSort {
 
     public static void main(String[] args)
     {
-        int[] a ={5,3,2,1,4,0,-4};
-        mien ob = new mien();
-        ob.RandomSort(a);
+        int[] a ={2,-5,1,-2,0,3};
+        RandomSort ob = new RandomSort();
+        ob.Random(a);
         System.out.println("Sorted Array: ");
         for (int i = 0; i < a.length; i++)
             System.out.print(a[i] + " ");
