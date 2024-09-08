@@ -26,13 +26,10 @@ public class RandomSort {
 
     public static void main(String[] args)
     {
-        // Enter array to be sorted here
         int[] a ={5,3,2,1,4,0,-4};
         mien ob = new mien();
-
         ob.RandomSort(a);
-
-        System.out.print("Sorted array: ");
+        System.out.println("Sorted Array: ");
         for (int i = 0; i < a.length; i++)
             System.out.print(a[i] + " ");
         System.out.println();
