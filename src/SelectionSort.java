@@ -23,7 +23,7 @@ public class SelectionSort {
         int temp, index_min;
         for(int i=0; i<A.length; i++){
             index_min=find_min(A,i);
-            System.out.println(A[index_min]);
+//            System.out.println(A[index_min]);
             if (A[index_min]!=A[i]){
                 swap(A, index_min, i);
             }
